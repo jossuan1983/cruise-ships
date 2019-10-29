@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="sky">Sky</string>
+    <string name="bliss">Bliss</string>
+    <string name="escape">Escape</string>
+    <string name="shipName">Ship Name:</string>
+    <string name="passengerCapacity">Passenger Capacity:</string>
+    <string name="inauguralDate">Inaugural Date:</string>
+    <string name="crew">Crew:</string>
+</resources>

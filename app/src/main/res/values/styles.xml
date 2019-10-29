@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="btnTextColor">@color/btnTextColor</item>
+        <item name="btnBgColor">@color/btnBgColor</item>
+
+        <item name="styleCommonBtn">@style/CommonBtnStyle</item>
+        <item name="styleLabel">@style/LabelStyle</item>
+        <item name="styleValue">@style/ValueStyle</item>
+
+    </style>
+
+    <style name="CommonBtnStyle" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:textColor">?attr/btnTextColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">?attr/btnBgColor</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="LabelStyle" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:textColor">?attr/btnTextColor</item>
+    </style>
+
+    <style name="ValueStyle" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:textColor">?attr/btnTextColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">5dp</item>
+    </style>
+
+</resources>
